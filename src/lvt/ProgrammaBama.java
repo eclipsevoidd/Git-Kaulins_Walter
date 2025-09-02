@@ -1,9 +1,20 @@
 package lvt;
 
+import java.util.Random;
+
 public class ProgrammaBama {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+int skaitlis;
+Random rand = new Random();
+
+skaitlis = rand.nextInt(6)+1;
+
+System.out.println("Jusu skaitlis ir: "+skaitlis);
+		
+		
+		
 
 	}
 
