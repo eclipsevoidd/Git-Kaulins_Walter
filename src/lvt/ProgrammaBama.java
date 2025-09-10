@@ -5,9 +5,10 @@ import java.util.Scanner;
 
 public class ProgrammaBama {
 
-	public static void main(String[] args) {
+	static void MestKaulinu(int reizes) {
 		
-int skaitlis, reizes;
+		
+int skaitlis;
 Scanner scan = new Scanner(System.in);
 System.out.println("Cik reizes mest kaulinu?");
 reizes=scan.nextInt();
@@ -17,11 +18,17 @@ Random rand = new Random();
 
 skaitlis = rand.nextInt(6)+1;
 
-System.out.println("Jusu skaitlis ir: "+skaitlis);
-}		
+System.out.println("Jusu skaitlis ir: "+skaitlis);	
 		
-		
+	}
 
+scan.close();
+	}
+	
+	public static void main(String[] args) {
+		
+MestKaulinu(5);
+		
 	}
 
 }
