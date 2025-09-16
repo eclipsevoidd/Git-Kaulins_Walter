@@ -27,6 +27,8 @@ scan.close();
 	
 	public static void main(String[] args) {
 		
+		System.out.println("Esat sveicinats jaunais kungs/kundze");
+		
 MestKaulinu(5);
 		
 	}
